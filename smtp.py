@@ -411,8 +411,8 @@ if vers=='SMTP ':
 else:
  print("\033[91mApakah anda ingin melanjutkan ? \033[00m")
  ok=raw_input('''
-   \033[91m[\033[94m1\033[91m]\033[00m YEs
-   \033[91m[\033[94m2\033[91m]\033[00m No
+   \033[91m[\033[94m1\033[91m]\033[00m UPDATE
+   \033[91m[\033[94m2\033[91m]\033[00m LANJUT
   \033[91m[\033[94m>\033[91m]\033[00m : ''')
  if ok=='1':
   aroon ="\n Update Strated !\n"
@@ -430,7 +430,7 @@ else:
  elif ok=='2':
   pass
 try:
-  inputs=open(raw_input('\033[91m[\033[92m+\033[91m]\033[92m Gak suka di 2in ya ? kawwakwa , em:pas u mana ? : \033[97m'),'r').read().splitlines()
+  inputs=open(raw_input('\033[91m[\033[92m+\033[91m]\033[92m Em:pas u mana ? : \033[97m'),'r').read().splitlines()
 except:
 	sys.exit("\n\033[91m{!} EH KUNYUK FILE GAK ADA MAU NGEPRANK GW ? Buat chanel youtube sanah jgn crack smtp  \033[00m")
 email=raw_input('\033[91m[\033[92m+\033[91m]\033[92m Email u :\033[97m ')
